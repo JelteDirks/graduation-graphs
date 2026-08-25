@@ -1,10 +1,17 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Pagina-1" id="lukp2Z2YQv6wMfW2pHvB">
-    <mxGraphModel dx="1954" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2241" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vCfqc0yBNH5Kw_l7bIjO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="Bvvmz2ziNXw94I25PW0E-4" edge="1" parent="1" source="Bvvmz2ziNXw94I25PW0E-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="vCfqc0yBNH5Kw_l7bIjO-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCfqc0yBNH5Kw_l7bIjO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="LD A" vertex="1">
           <mxGeometry height="60" width="40" x="260" y="140" as="geometry" />
         </mxCell>
         <mxCell id="vCfqc0yBNH5Kw_l7bIjO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -52,7 +59,7 @@
         <mxCell id="vCfqc0yBNH5Kw_l7bIjO-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ROB" vertex="1">
           <mxGeometry height="30" width="60" x="550" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="vCfqc0yBNH5Kw_l7bIjO-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="vCfqc0yBNH5Kw_l7bIjO-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="PSI" vertex="1">
           <mxGeometry height="60" width="40" x="-10" y="140" as="geometry" />
         </mxCell>
         <mxCell id="vCfqc0yBNH5Kw_l7bIjO-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -160,7 +167,7 @@
         <mxCell id="vCfqc0yBNH5Kw_l7bIjO-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="accessMemory" vertex="1">
           <mxGeometry height="40" width="90" x="410" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="vCfqc0yBNH5Kw_l7bIjO-51" edge="1" parent="1" source="vCfqc0yBNH5Kw_l7bIjO-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vCfqc0yBNH5Kw_l7bIjO-50" value="">
+        <mxCell id="vCfqc0yBNH5Kw_l7bIjO-51" edge="1" parent="1" source="vCfqc0yBNH5Kw_l7bIjO-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="vCfqc0yBNH5Kw_l7bIjO-50" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vCfqc0yBNH5Kw_l7bIjO-49" parent="1" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
@@ -178,7 +185,7 @@
             <mxPoint x="280" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vCfqc0yBNH5Kw_l7bIjO-56" edge="1" parent="1" source="vCfqc0yBNH5Kw_l7bIjO-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vCfqc0yBNH5Kw_l7bIjO-57" value="">
+        <mxCell id="vCfqc0yBNH5Kw_l7bIjO-56" edge="1" parent="1" source="vCfqc0yBNH5Kw_l7bIjO-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="vCfqc0yBNH5Kw_l7bIjO-57" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="340" as="targetPoint" />
           </mxGeometry>
@@ -188,6 +195,27 @@
         </mxCell>
         <mxCell id="vCfqc0yBNH5Kw_l7bIjO-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="uop exec latency is now set to the predicted exec latency which includes the PF latency" vertex="1">
           <mxGeometry height="120" width="290" x="610" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvvmz2ziNXw94I25PW0E-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="When this pseudoinstruction is handled by the core, it is counted as a serialize instruction (always 1 cycle latency). After being handled, it increments the cpi by the PF latency. The total cpi is thus incremented by&lt;div&gt;1 cycle (cpiSerialization)&lt;/div&gt;&lt;div&gt;[PF cycles] (cpiPageFault)&lt;/div&gt;&lt;div&gt;Done by perf model.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="290" x="-320" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvvmz2ziNXw94I25PW0E-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="when LD A reaches the head of the ROB, it is counted as a regular stall and the remaining cycles from now until end of execution time is added to the respective cpi component.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;So, the cpi component will get time because the PF increased the exeuction time of LD A, even though it is also counted by perf model.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="370" x="395" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvvmz2ziNXw94I25PW0E-5" edge="1" parent="1" source="vCfqc0yBNH5Kw_l7bIjO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="Bvvmz2ziNXw94I25PW0E-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="70" />
+            </Array>
+            <mxPoint x="280" y="140" as="sourcePoint" />
+            <mxPoint x="880" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bvvmz2ziNXw94I25PW0E-7" edge="1" parent="1" source="Bvvmz2ziNXw94I25PW0E-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Bvvmz2ziNXw94I25PW0E-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvvmz2ziNXw94I25PW0E-6" parent="1" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="570" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
