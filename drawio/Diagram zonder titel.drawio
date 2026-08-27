@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Pagina-1" id="lukp2Z2YQv6wMfW2pHvB">
-    <mxGraphModel dx="1845" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2265" dy="2141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -674,6 +674,9 @@
             <mxPoint x="230" y="20" as="sourcePoint" />
             <mxPoint x="310" y="20" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="holDKo4KnHxJkGmS3SD1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="This is a scenario that details the way the page faults work when encountered in a PF load (or store). The &#39;problem&#39; is that the page faults are double counted. However, removing either one of the counts will possibly end up with a worse scenario than including it.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- removing the performance model counting would let page faults overlap with MLP if happening sequentially very often. This is definitely not what we want since a PF always happens serially in time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- removing the time fast forwarding of a memory request will include PF latency in the specific load, but removing this will mess up when memory is loaded when it needs a PF. this interferes with subsequent memops.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="445" x="-75" y="-480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
